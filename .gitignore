@@ -1,0 +1,4 @@
+.venv/
+agendador.log
+__pycache__/
+.DS_Store
