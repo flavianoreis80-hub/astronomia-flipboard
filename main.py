@@ -18,6 +18,13 @@ from xml.dom import minidom
 DIRETORIO_BASE = Path(__file__).parent
 SAIDA_RSS = DIRETORIO_BASE / "feed_astronomia.xml"
 
+# Vault Obsidian: nota diária de notícias (defina OBSIDIAN_VAULT para usar outro vault)
+VAULT_OBSIDIAN = Path(os.environ.get(
+    "OBSIDIAN_VAULT",
+    "/Users/flaviano/Library/Mobile Documents/iCloud~md~obsidian/Documents/Astronomia"
+))
+PASTA_NOTICIAS = VAULT_OBSIDIAN / "07 Notícias"
+
 # Homepage de cada fonte (atributo url exigido pelo elemento <source> do RSS 2.0)
 URLS_FONTES = {
     "NASA APOD": "https://apod.nasa.gov",
@@ -223,6 +230,42 @@ class ColetorAstronomia:
         print(f"\n✓ RSS gerado: {SAIDA_RSS}")
         print(f"  {len(self.artigos)} artigos inclusos")
 
+    def gerar_nota_obsidian(self):
+        """Gera a nota diária de notícias no vault Obsidian (sobrescreve a do mesmo dia)"""
+        if not VAULT_OBSIDIAN.exists():
+            print("✗ Vault Obsidian não encontrado, nota não gerada")
+            return
+        try:
+            PASTA_NOTICIAS.mkdir(exist_ok=True)
+            hoje = self.momento.strftime("%Y-%m-%d")
+            nota = PASTA_NOTICIAS / f"{hoje} — Notícias de astronomia.md"
+
+            linhas = [
+                "---",
+                "tags: [noticias]",
+                f"data: {hoje}",
+                "---",
+                "",
+                "# 📰 Notícias de astronomia",
+                "",
+            ]
+            for fonte in dict.fromkeys(a["fonte"] for a in self.artigos):
+                linhas.append(f"## {fonte}")
+                linhas.append("")
+                for artigo in self.artigos:
+                    if artigo["fonte"] != fonte:
+                        continue
+                    linhas.append(f"### [{artigo['titulo']}]({artigo['link']})")
+                    if artigo["descricao"]:
+                        linhas.append(artigo["descricao"])
+                    linhas.append("")
+
+            linhas.append("*Gerado automaticamente pelo agente de astronomia*")
+            nota.write_text("\n".join(linhas) + "\n", encoding="utf-8")
+            print(f"✓ Nota Obsidian gerada: {nota.name}")
+        except Exception as e:
+            print(f"✗ Erro ao gerar nota Obsidian: {e}")
+
     def adicionar_artigos_demo(self):
         """Adiciona artigos de demonstração (fallback se APIs falham)"""
         demo = [
@@ -268,6 +311,7 @@ class ColetorAstronomia:
             self.adicionar_artigos_demo()
 
         self.gerar_rss()
+        self.gerar_nota_obsidian()
 
         print(f"\n✓ Processo concluído!\n")
 
