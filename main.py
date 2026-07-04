@@ -23,6 +23,7 @@ URLS_FONTES = {
     "NASA APOD": "https://apod.nasa.gov",
     "Space.com": "https://www.space.com",
     "ESO": "https://www.eso.org/public/news/",
+    "CCVAlg": "https://www.ccvalg.pt/astronomia/",
     "arXiv": "https://arxiv.org",
     "NASA": "https://www.nasa.gov",
 }
@@ -120,6 +121,27 @@ class ColetorAstronomia:
                 print("✗ ESO: nenhum artigo encontrado")
         except Exception as e:
             print(f"✗ Erro ao buscar ESO: {e}")
+
+    def buscar_ccvalg(self):
+        """Busca notícias de astronomia em português do CCVAlg (Centro Ciência Viva do Algarve)"""
+        try:
+            url = "http://feeds.feedburner.com/astropt_ccvalg"
+            feed = feedparser.parse(url)
+            if feed.entries:
+                for entrada in feed.entries[:5]:
+                    resumo = entrada.get("summary", "") or entrada.get("description", "")
+                    self.artigos.append({
+                        "titulo": entrada.get("title", "Notícia de Astronomia"),
+                        "descricao": resumo[:300] if resumo else "Notícia de astronomia em português",
+                        "link": entrada.get("link", "https://www.ccvalg.pt/astronomia/"),
+                        "fonte": "CCVAlg",
+                        "data": data_entrada_feed(entrada)
+                    })
+                print(f"✓ CCVAlg coletado ({len(feed.entries)} artigos)")
+            else:
+                print("✗ CCVAlg: nenhum artigo encontrado")
+        except Exception as e:
+            print(f"✗ Erro ao buscar CCVAlg: {e}")
 
     def buscar_arxiv_astronomia(self):
         """Busca artigos científicos de astronomia do arXiv"""
@@ -237,6 +259,7 @@ class ColetorAstronomia:
         self.buscar_nasa_apod()
         self.buscar_space_com()
         self.buscar_eso()
+        self.buscar_ccvalg()
         self.buscar_arxiv_astronomia()
 
         # Se nenhum artigo foi coletado, usar demonstração

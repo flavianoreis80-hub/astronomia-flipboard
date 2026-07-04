@@ -5,15 +5,7 @@
     <link>https://flipboard.com</link>
     <description>Notícias e descobertas de astronomia atualizadas diariamente</description>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 03 Jul 2026 19:09:08 +0000</lastBuildDate>
-    <item>
-      <title>The Cotton Candy Clouds of Rho Ophiuchi</title>
-      <description>Although they look like cotton candy, you cannot eat these clouds! Taken in Cádiz, Spain, today's image features the Rho Ophiuchi complex, a rich tapestry of young and old astronomical phenomena. This colorful cloud complex is a nearby star-forming region containing hundreds of young stellar objects</description>
-      <link>https://apod.nasa.gov/apod/image/2607/rho_ophiuchi_800.jpg</link>
-      <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/rho_ophiuchi_800.jpg</guid>
-      <source url="https://apod.nasa.gov">NASA APOD</source>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 04 Jul 2026 13:44:44 +0000</lastBuildDate>
     <item>
       <title>Sibling Supernova Remnants</title>
       <description>What happens when one of the stars in a binary goes supernova?   This image combines visible (yellow), ultraviolet (purple) and infrared light (cyan, red and orange) to show two supernova remnants and their surrounding environment, about 6,000 light-years away.   The younger one is the well-known Je</description>
@@ -31,44 +23,52 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Pathfinder on Mars</title>
+      <description>On July 4th, 1997, using its own array of fireworks, a parachute, and a cocoon of airbags, the Mars Pathfinder spacecraft bounced like a giant beach ball at least 15 times before it came to rest on the surface of Mars at 10:07 AM Pacific Daylight Time. After its then novel airbag-assisted landing se</description>
+      <link>https://apod.nasa.gov/apod/image/2607/PIA00621_1080CWb.jpg</link>
+      <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/PIA00621_1080CWb.jpg</guid>
+      <source url="https://apod.nasa.gov">NASA APOD</source>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What did the night sky look like on the 1st Independence Day 250 years ago?</title>
+      <description>As the U.S. celebrates its 250th birthday, here's what Benjamin Franklin and other colonists would have seen when they looked up on July 4, 1776.</description>
+      <link>https://www.space.com/stargazing/what-did-the-night-sky-look-like-on-the-1st-independence-day-250-years-ago</link>
+      <guid isPermaLink="false">https://www.space.com/stargazing/what-did-the-night-sky-look-like-on-the-1st-independence-day-250-years-ago</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>30 years on, &quot;Independence Day&quot; still proves the versatility of the original &quot;The War of the Worlds&quot;</title>
+      <description>&quot;Independence Day&quot; isn't technically &quot;The War of the Worlds&quot; but it's still one of the most successful adaptations of HG Wells' genre-defining novel.</description>
+      <link>https://www.space.com/entertainment/space-movies-shows/30-years-on-independence-day-still-proves-the-versatility-of-the-original-the-war-of-the-worlds</link>
+      <guid isPermaLink="false">https://www.space.com/entertainment/space-movies-shows/30-years-on-independence-day-still-proves-the-versatility-of-the-original-the-war-of-the-worlds</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Sat, 04 Jul 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to find Uranus this week, the hardest planet I've ever tried to see</title>
+      <description>Get your eyes on the seventh planet, and you can graduate as a skywatcher — and there's a perfect way to cheat this week as Mars glides by Uranus.</description>
+      <link>https://www.space.com/stargazing/how-to-find-uranus-this-week-the-hardest-planet-ive-ever-tried-to-see</link>
+      <guid isPermaLink="false">https://www.space.com/stargazing/how-to-find-uranus-this-week-the-hardest-planet-ive-ever-tried-to-see</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Fri, 03 Jul 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>As 'Terminator 2: Judgment Day' turns 35, it's time to accept the truth: Terminator shouldn't be back</title>
+      <description>The future has been written, and it's a dark fate for the Terminator franchise.</description>
+      <link>https://www.space.com/entertainment/space-movies-shows/as-terminator-2-judgment-day-turns-35-its-time-to-accept-the-truth-terminator-shouldnt-be-back</link>
+      <guid isPermaLink="false">https://www.space.com/entertainment/space-movies-shows/as-terminator-2-judgment-day-turns-35-its-time-to-accept-the-truth-terminator-shouldnt-be-back</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Fri, 03 Jul 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Could humans someday explore Saturn's moon Titan, or will humanoid robots do it for us?</title>
       <description>Could humans ever set foot on Titan, or will AI-powered humanoid robots make the voyage instead?</description>
       <link>https://www.space.com/space-exploration/could-humans-someday-explore-saturns-moon-titan-or-will-humanoid-robots-do-it-for-us</link>
       <guid isPermaLink="false">https://www.space.com/space-exploration/could-humans-someday-explore-saturns-moon-titan-or-will-humanoid-robots-do-it-for-us</guid>
       <source url="https://www.space.com">Space.com</source>
       <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Independence Day' at 30: Roland Emmerich &amp; Dean Devlin talk blowing up the White House and crafting a true sci-fi classic (interview)</title>
-      <description>'Welcome to Earth… Now that's what I call a close encounter!'</description>
-      <link>https://www.space.com/entertainment/space-movies-shows/independence-day-at-30-roland-emmerich-and-dean-devlin-talk-blowing-up-the-white-house-and-crafting-a-true-sci-fi-classic-interview</link>
-      <guid isPermaLink="false">https://www.space.com/entertainment/space-movies-shows/independence-day-at-30-roland-emmerich-and-dean-devlin-talk-blowing-up-the-white-house-and-crafting-a-true-sci-fi-classic-interview</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Fri, 03 Jul 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>1 private spacecraft intercepts another on Space Force's groundbreaking 'Victus Haze' mission</title>
-      <description>A U.S. Space Force mission pitting two satellites against each other has completed the organization's first tactical intercept of an orbital target.</description>
-      <link>https://www.space.com/space-exploration/launches-spacecraft/1-private-spacecraft-intercepts-another-on-space-forces-groundbreaking-victus-haze-mission</link>
-      <guid isPermaLink="false">https://www.space.com/space-exploration/launches-spacecraft/1-private-spacecraft-intercepts-another-on-space-forces-groundbreaking-victus-haze-mission</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Fri, 03 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Celebrate 250 years of America with the Estes Liberty Star model rocket</title>
-      <description>Model rocket staple Estes has designed a limited edition model rocket decked out in red, white and blue for the 250th anniversary of Independence Day. Suitable for display or launch.</description>
-      <link>https://www.space.com/stargazing/skywatching-kit/celebrate-250-years-of-america-with-the-estes-liberty-star-model-rocket</link>
-      <guid isPermaLink="false">https://www.space.com/stargazing/skywatching-kit/celebrate-250-years-of-america-with-the-estes-liberty-star-model-rocket</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Fri, 03 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Space science has come a long way since July 4, 1776. Here's a look back at the saga</title>
-      <description>Celebrating America's 250th birthday, Space.com looks back at what our understanding of space was like in 1776 and what major developments occurred to change our thinking.</description>
-      <link>https://www.space.com/astronomy/space-science-has-come-a-long-way-since-july-4-1776-heres-a-look-back-at-the-saga</link>
-      <guid isPermaLink="false">https://www.space.com/astronomy/space-science-has-come-a-long-way-since-july-4-1776-heres-a-look-back-at-the-saga</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Fri, 03 Jul 2026 14:54:32 +0000</pubDate>
     </item>
     <item>
       <title>&quot;Beyond the limit&quot;: one million satellites and mirrors in space pose grave threat to the night sky</title>
@@ -93,6 +93,81 @@
       <guid isPermaLink="false">https://www.eso.org/public/news/eso2605/</guid>
       <source url="https://www.eso.org/public/news/">ESO</source>
       <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missão TESS descobre sistema planetário por via que lhe é inédita</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/d5/a8/DcmmVLvy_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pela primeira vez, a missão TESS da NASA descobriu um planeta através de microlentes gravitacionais, em vez do método habitual dos trânsitos. O planeta Ga</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Fri, 03 Jul 2026 05:06:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chandra e XMM-Newton revêem distância até aos braços espirais exteriores da Via Láctea</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/68/63/HTjY5vNB_o.gif&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Os telescópios espaciais de raios X, XMM-Newton da ESA, e Chandra da NASA, mapearam os braços espirais exteriores da nossa Via Láctea medindo os ecos de r</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/3_bracos_via_lactea.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_bracos_via_lactea.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Fri, 03 Jul 2026 05:05:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ação! Observatório Vera C. Rubin começa a captar o maior filme cósmico de sempre</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/b9/79/wf53ocTc_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;O Observatório Vera C. Rubin deu início ao seu grande levantamento do céu, um projeto de 10 anos que produzirá o mais detalhado &quot;filme&quot; do Universo de sem</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/3_lsst_vera_rubin.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_lsst_vera_rubin.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Fri, 03 Jul 2026 05:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missão TESS revela os planetas mais &quot;inchados&quot; já descobertos</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/c7/59/s8j9aVVg_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A missão TESS da NASA descobriu os dois exoplanetas mais “fofos” alguma vez observados: TOI-791 b e TOI-791 c. Apesar de terem dimensões semelhantes às de</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/06/30_toi_791_b_c.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/06/30_toi_791_b_c.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Tue, 30 Jun 2026 05:06:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>As órbitas dos cometas de longo período refletem a passagem próxima da estrela HD 7977</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/fb/d0/BzgZm5Qk_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Um novo estudo sugere que a passagem da estrela HD 7977, há cerca de 2,5 milhões de anos, perturbou a Nuvem de Oort e desencadeou uma chuva de cometas de </description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/06/30_cometas_hd_7977.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/06/30_cometas_hd_7977.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Tue, 30 Jun 2026 05:05:45 +0000</pubDate>
     </item>
     <item>
       <title>The Merger-Driven Origin of the Vast Extended Stellar Disc Around the Andromeda Galaxy</title>
