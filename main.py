@@ -237,7 +237,7 @@ class ColetorAstronomia:
 
         # Metadados do canal
         ET.SubElement(canal, "title").text = titulo
-        ET.SubElement(canal, "link").text = "https://flipboard.com"
+        ET.SubElement(canal, "link").text = "https://flavianoreis80-hub.github.io/astronomia-flipboard/"
         ET.SubElement(canal, "description").text = descricao
         ET.SubElement(canal, "language").text = "pt-br"
         ET.SubElement(canal, "lastBuildDate").text = data_rfc822(self.momento)
