@@ -16,7 +16,7 @@ if ! git remote get-url origin >/dev/null 2>&1; then
     fi
 fi
 
-git add feed_astronomia.xml
+git add feed_astronomia.xml feeds
 if ! git diff --cached --quiet; then
     git commit -m "Atualiza feed $(date '+%Y-%m-%d %H:%M')"
     git push origin main

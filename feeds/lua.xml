@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>A Lua</title>
+    <link>https://flipboard.com</link>
+    <description>Notícias diárias de astronomia — A Lua</description>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 05 Jul 2026 12:17:26 +0000</lastBuildDate>
+    <item>
+      <title>Saturn's Iapetus: Painted Moon</title>
+      <description>What has happened to Saturn's moon Iapetus?  Vast sections of this strange world are dark as coal, while others are as bright as snow.  To help better understand this unusually tinted moon, in 2007 NASA directed the robotic Cassini spacecraft then orbiting Saturn to swoop within 2,000 kilometers.  P</description>
+      <link>https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_960.jpg</link>
+      <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_960.jpg</guid>
+      <source url="https://apod.nasa.gov">NASA APOD</source>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America 250: From 1776 to the moon and beyond (A Space.com series)</title>
+      <description>As the United States celebrates its 250th birthday, our Space.com team took a look back at American advances in space since 1776, and where we might be headed.</description>
+      <link>https://www.space.com/space-exploration/america-250-from-1776-to-the-moon-and-beyond-a-space-com-series</link>
+      <guid isPermaLink="false">https://www.space.com/space-exploration/america-250-from-1776-to-the-moon-and-beyond-a-space-com-series</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Sat, 04 Jul 2026 18:18:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Human flight was still 7 years away in 1776. Now, we're headed back to the moon</title>
+      <description>Humanity made some halting steps toward flight over the centuries, but our species was still firmly rooted on the ground when the United States of America was born on July 4, 1776.</description>
+      <link>https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon</link>
+      <guid isPermaLink="false">https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon</guid>
+      <source url="https://www.space.com">Space.com</source>
+      <pubDate>Sat, 04 Jul 2026 14:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

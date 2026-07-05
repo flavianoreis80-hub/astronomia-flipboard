@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Space Tech</title>
+    <link>https://flipboard.com</link>
+    <description>Notícias diárias de astronomia — Space Tech</description>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 05 Jul 2026 12:17:26 +0000</lastBuildDate>
+    <item>
+      <title>&quot;Beyond the limit&quot;: one million satellites and mirrors in space pose grave threat to the night sky</title>
+      <description>A new European Southern Observatory (ESO) study has found that current proposals to launch over 1.7 million satellites into orbit, including extremely bright ones, would have “devastating consequences for astronomy.” According to the study, no more than 100 000 faint satellites, below naked eye visi</description>
+      <link>https://www.eso.org/public/news/eso2607/</link>
+      <guid isPermaLink="false">https://www.eso.org/public/news/eso2607/</guid>
+      <source url="https://www.eso.org/public/news/">ESO</source>
+      <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missão TESS descobre sistema planetário por via que lhe é inédita</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/d5/a8/DcmmVLvy_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pela primeira vez, a missão TESS da NASA descobriu um planeta através de microlentes gravitacionais, em vez do método habitual dos trânsitos. O planeta Ga</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Fri, 03 Jul 2026 05:06:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

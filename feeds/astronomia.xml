@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <rss version="2.0">
   <channel>
-    <title>Astronomia Diária</title>
+    <title>Astronomia</title>
     <link>https://flipboard.com</link>
-    <description>Notícias e descobertas de astronomia atualizadas diariamente</description>
+    <description>Notícias diárias de astronomia — Astronomia</description>
     <language>pt-br</language>
     <lastBuildDate>Sun, 05 Jul 2026 12:17:26 +0000</lastBuildDate>
     <item>
@@ -13,22 +13,6 @@
       <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/NGC6769LRGBcropAZ-1500-20-May-2026-1024.jpg</guid>
       <source url="https://apod.nasa.gov">NASA APOD</source>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pathfinder on Mars</title>
-      <description>On July 4th, 1997, using its own array of fireworks, a parachute, and a cocoon of airbags, the Mars Pathfinder spacecraft bounced like a giant beach ball at least 15 times before it came to rest on the surface of Mars at 10:07 AM Pacific Daylight Time. After its then novel airbag-assisted landing se</description>
-      <link>https://apod.nasa.gov/apod/image/2607/PIA00621_1080CWb.jpg</link>
-      <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/PIA00621_1080CWb.jpg</guid>
-      <source url="https://apod.nasa.gov">NASA APOD</source>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Saturn's Iapetus: Painted Moon</title>
-      <description>What has happened to Saturn's moon Iapetus?  Vast sections of this strange world are dark as coal, while others are as bright as snow.  To help better understand this unusually tinted moon, in 2007 NASA directed the robotic Cassini spacecraft then orbiting Saturn to swoop within 2,000 kilometers.  P</description>
-      <link>https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_960.jpg</link>
-      <guid isPermaLink="false">https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_960.jpg</guid>
-      <source url="https://apod.nasa.gov">NASA APOD</source>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>He-Man and beyond: 20 sci-fi cartoons (some iconic, some weird) that transported '80s and '90s kids to strange new worlds</title>
@@ -47,67 +31,12 @@
       <pubDate>Sun, 05 Jul 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>America 250: From 1776 to the moon and beyond (A Space.com series)</title>
-      <description>As the United States celebrates its 250th birthday, our Space.com team took a look back at American advances in space since 1776, and where we might be headed.</description>
-      <link>https://www.space.com/space-exploration/america-250-from-1776-to-the-moon-and-beyond-a-space-com-series</link>
-      <guid isPermaLink="false">https://www.space.com/space-exploration/america-250-from-1776-to-the-moon-and-beyond-a-space-com-series</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Sat, 04 Jul 2026 18:18:45 +0000</pubDate>
-    </item>
-    <item>
       <title>This Week In Space podcast: Episode 217 — America in Space</title>
       <description>On Episode 217 of This Week In Space, Rod Pyle and Tariq Malik discuss the progression of American space efforts.</description>
       <link>https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-217-america-in-space</link>
       <guid isPermaLink="false">https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-217-america-in-space</guid>
       <source url="https://www.space.com">Space.com</source>
       <pubDate>Sat, 04 Jul 2026 16:26:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Human flight was still 7 years away in 1776. Now, we're headed back to the moon</title>
-      <description>Humanity made some halting steps toward flight over the centuries, but our species was still firmly rooted on the ground when the United States of America was born on July 4, 1776.</description>
-      <link>https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon</link>
-      <guid isPermaLink="false">https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon</guid>
-      <source url="https://www.space.com">Space.com</source>
-      <pubDate>Sat, 04 Jul 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>&quot;Beyond the limit&quot;: one million satellites and mirrors in space pose grave threat to the night sky</title>
-      <description>A new European Southern Observatory (ESO) study has found that current proposals to launch over 1.7 million satellites into orbit, including extremely bright ones, would have “devastating consequences for astronomy.” According to the study, no more than 100 000 faint satellites, below naked eye visi</description>
-      <link>https://www.eso.org/public/news/eso2607/</link>
-      <guid isPermaLink="false">https://www.eso.org/public/news/eso2607/</guid>
-      <source url="https://www.eso.org/public/news/">ESO</source>
-      <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Strange winds reveal strongest hints yet of magnetic activity in exoplanets</title>
-      <description>A team of astronomers has found the strongest evidence yet that some planets outside our Solar System may be magnetic. Using the European Southern Observatory’s Very Large Telescope (ESO's VLT) and the Gemini North telescope, the researchers measured wind speeds on seven very hot, Jupiter-like exopl</description>
-      <link>https://www.eso.org/public/news/eso2606/</link>
-      <guid isPermaLink="false">https://www.eso.org/public/news/eso2606/</guid>
-      <source url="https://www.eso.org/public/news/">ESO</source>
-      <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>First light for PoET: shining (sun)light on exoplanet research</title>
-      <description>The Paranal solar ESPRESSO Telescope (PoET), installed at the European Southern Observatory's (ESO's) Paranal site in Chile, has made its first observations. The telescope will work with ESO's ESPRESSO instrument to study the Sun in detail. Described as a solar telescope for planet hunters, PoET aim</description>
-      <link>https://www.eso.org/public/news/eso2605/</link>
-      <guid isPermaLink="false">https://www.eso.org/public/news/eso2605/</guid>
-      <source url="https://www.eso.org/public/news/">ESO</source>
-      <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Missão TESS descobre sistema planetário por via que lhe é inédita</title>
-      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/d5/a8/DcmmVLvy_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Pela primeira vez, a missão TESS da NASA descobriu um planeta através de microlentes gravitacionais, em vez do método habitual dos trânsitos. O planeta Ga</description>
-      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</link>
-      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_gaia23bra_b.htm</guid>
-      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
-      <pubDate>Fri, 03 Jul 2026 05:06:38 +0000</pubDate>
     </item>
     <item>
       <title>Chandra e XMM-Newton revêem distância até aos braços espirais exteriores da Via Láctea</title>
@@ -138,21 +67,6 @@
       <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/3_lsst_vera_rubin.htm</guid>
       <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
       <pubDate>Fri, 03 Jul 2026 05:05:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Missão TESS revela os planetas mais &quot;inchados&quot; já descobertos</title>
-      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/c7/59/s8j9aVVg_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;A missão TESS da NASA descobriu os dois exoplanetas mais “fofos” alguma vez observados: TOI-791 b e TOI-791 c. Apesar de terem dimensões semelhantes às de</description>
-      <link>https://www.ccvalg.pt/astronomia/noticias/2026/06/30_toi_791_b_c.htm</link>
-      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/06/30_toi_791_b_c.htm</guid>
-      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
-      <pubDate>Tue, 30 Jun 2026 05:06:33 +0000</pubDate>
     </item>
     <item>
       <title>As órbitas dos cometas de longo período refletem a passagem próxima da estrela HD 7977</title>

@@ -17,6 +17,31 @@ from xml.dom import minidom
 # Diretórios
 DIRETORIO_BASE = Path(__file__).parent
 SAIDA_RSS = DIRETORIO_BASE / "feed_astronomia.xml"
+PASTA_FEEDS = DIRETORIO_BASE / "feeds"
+
+# Feeds temáticos — um por revista do Flipboard. Um artigo entra no PRIMEIRO tema
+# cujas palavras-chave casarem (título+descrição); sem correspondência → ASTRONOMIA.
+TEMAS = [
+    ("A LUA", "lua.xml", [
+        "moon", "lunar", " lua ", "da lua", "a lua", "apollo", "artemis", "cratera",
+    ]),
+    ("MARTE", "marte.xml", [
+        "mars", "marte", "martian", "marciano", "rover", "perseverance", "curiosity",
+        "pathfinder", "sojourner", "phobos", "deimos",
+    ]),
+    ("EXOPLANETAS", "exoplanetas.xml", [
+        "exoplanet", "exoplaneta", "habitável", "habitable", "planeta errante",
+        "rogue planet", "trappist", "kepler-", "proxima b", "super-terra", "super-earth",
+        "anã vermelha", "zona habitável", "sistema planetário", "planetary system",
+    ]),
+    ("SPACE TECH", "space-tech.xml", [
+        "rocket", "foguete", "launch", "lançamento", "spacex", "starship", "falcon",
+        "satellite", "satélite", "space station", "estação espacial", "iss",
+        "spacecraft", "espaçonave", "sonda", "probe", "missão", "mission", "nasa seleciona",
+        "astronaut", "astronauta", "capsule", "cápsula",
+    ]),
+    ("ASTRONOMIA", "astronomia.xml", []),  # catch-all: galáxias, estrelas, buracos negros etc.
+]
 
 # Vault Obsidian: nota diária de notícias (defina OBSIDIAN_VAULT para usar outro vault)
 VAULT_OBSIDIAN = Path(os.environ.get(
@@ -191,22 +216,34 @@ class ColetorAstronomia:
         except Exception as e:
             print(f"✗ Erro ao buscar arXiv: {e}")
 
-    def gerar_rss(self):
-        """Gera arquivo RSS com os artigos coletados"""
+    def classificar_tema(self, artigo):
+        """Retorna o nome do tema (revista) de um artigo pela primeira palavra-chave que casar"""
+        texto = f" {artigo['titulo']} {artigo['descricao']} ".lower()
+        for nome, _, palavras in TEMAS:
+            if any(p in texto for p in palavras):
+                return nome
+        return "ASTRONOMIA"
+
+    def gerar_rss(self, artigos=None, caminho=None, titulo="Astronomia Diária",
+                  descricao="Notícias e descobertas de astronomia atualizadas diariamente"):
+        """Gera um arquivo RSS com os artigos informados (padrão: todos, no feed principal)"""
+        artigos = self.artigos if artigos is None else artigos
+        caminho = SAIDA_RSS if caminho is None else caminho
+
         rss = ET.Element("rss")
         rss.set("version", "2.0")
 
         canal = ET.SubElement(rss, "channel")
 
         # Metadados do canal
-        ET.SubElement(canal, "title").text = "Astronomia Diária"
+        ET.SubElement(canal, "title").text = titulo
         ET.SubElement(canal, "link").text = "https://flipboard.com"
-        ET.SubElement(canal, "description").text = "Notícias e descobertas de astronomia atualizadas diariamente"
+        ET.SubElement(canal, "description").text = descricao
         ET.SubElement(canal, "language").text = "pt-br"
         ET.SubElement(canal, "lastBuildDate").text = data_rfc822(self.momento)
 
         # Adicionar artigos
-        for artigo in self.artigos:
+        for artigo in artigos:
             item = ET.SubElement(canal, "item")
             ET.SubElement(item, "title").text = artigo["titulo"]
             ET.SubElement(item, "description").text = artigo["descricao"]
@@ -224,11 +261,25 @@ class ColetorAstronomia:
         # Remover linhas vazias
         texto_xml = "\n".join([linha for linha in texto_xml.split("\n") if linha.strip()])
 
-        with open(SAIDA_RSS, "w", encoding="utf-8") as f:
+        with open(caminho, "w", encoding="utf-8") as f:
             f.write(texto_xml)
 
-        print(f"\n✓ RSS gerado: {SAIDA_RSS}")
-        print(f"  {len(self.artigos)} artigos inclusos")
+        print(f"✓ RSS gerado: {caminho.name} ({len(artigos)} artigos)")
+
+    def gerar_feeds_tematicos(self):
+        """Gera um feed por revista do Flipboard, classificando os artigos por tema"""
+        PASTA_FEEDS.mkdir(exist_ok=True)
+        por_tema = {nome: [] for nome, _, _ in TEMAS}
+        for artigo in self.artigos:
+            por_tema[self.classificar_tema(artigo)].append(artigo)
+
+        for nome, arquivo, _ in TEMAS:
+            self.gerar_rss(
+                artigos=por_tema[nome],
+                caminho=PASTA_FEEDS / arquivo,
+                titulo=nome.title() if nome != "A LUA" else "A Lua",
+                descricao=f"Notícias diárias de astronomia — {nome.title()}",
+            )
 
     def gerar_nota_obsidian(self):
         """Gera a nota diária de notícias no vault Obsidian (sobrescreve a do mesmo dia)"""
@@ -311,6 +362,7 @@ class ColetorAstronomia:
             self.adicionar_artigos_demo()
 
         self.gerar_rss()
+        self.gerar_feeds_tematicos()
         self.gerar_nota_obsidian()
 
         print(f"\n✓ Processo concluído!\n")
