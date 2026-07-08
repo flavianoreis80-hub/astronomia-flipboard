@@ -5,14 +5,37 @@
     <link>https://flavianoreis80-hub.github.io/astronomia-flipboard/</link>
     <description>Notícias diárias de astronomia — Space Tech</description>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 05 Jul 2026 12:43:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 01:24:59 +0000</lastBuildDate>
     <item>
-      <title>&quot;Beyond the limit&quot;: one million satellites and mirrors in space pose grave threat to the night sky</title>
-      <description>A new European Southern Observatory (ESO) study has found that current proposals to launch over 1.7 million satellites into orbit, including extremely bright ones, would have “devastating consequences for astronomy.” According to the study, no more than 100 000 faint satellites, below naked eye visi</description>
+      <title>“Além do limite”: um milhão de satélites e espelhos no espaço representam grave ameaça ao céu noturno</title>
+      <description>Um novo estudo do Observatório Europeu do Sul (ESO) concluiu que as actuais propostas para lançar mais de 1,7 milhões de satélites em órbita, incluindo satélites extremamente brilhantes, teriam “consequências devastadoras para a astronomia”. De acordo com o estudo, não mais do que 100.000 satélites fracos, abaixo da visão a olho nu,</description>
       <link>https://www.eso.org/public/news/eso2607/</link>
       <guid isPermaLink="false">https://www.eso.org/public/news/eso2607/</guid>
       <source url="https://www.eso.org/public/news/">ESO</source>
       <pubDate>Wed, 01 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Descoberta outra galáxia ténue nas proximidades de Andrómeda</title>
+      <description>&lt;table border=&quot;0&quot; cols=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://images2.imgbox.com/ca/26/BfKJPQyu_o.jpg&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Astrónomos descobriram Andromeda XXXVI, uma das galáxias satélite mais ténues alguma vez encontradas em torno da galáxia de Andrómeda. Com cerca de 12,5 m</description>
+      <link>https://www.ccvalg.pt/astronomia/noticias/2026/07/7_and_xxxvi.htm</link>
+      <guid isPermaLink="false">https://www.ccvalg.pt/astronomia/noticias/2026/07/7_and_xxxvi.htm</guid>
+      <source url="https://www.ccvalg.pt/astronomia/">CCVAlg</source>
+      <pubDate>Tue, 07 Jul 2026 05:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estrutura cinética do meio intracluster em aglomerados próximos observados com XRISM</title>
+      <description>O XRISM/Resolve está construindo uma amostra de aglomerados de galáxias com movimentos de gás ICM medidos diretamente, revelando diversos estados dinâmicos projetados. Compilamos 45 medições XRISM/Resolve em 19 aglomerados de galáxias próximos e as colocamos em uma escala de linha de visão efetiva comum, ponderada por emissão, $\ell_{\rm ef</description>
+      <link>http://arxiv.org/abs/2607.06313v1</link>
+      <guid isPermaLink="false">http://arxiv.org/abs/2607.06313v1</guid>
+      <source url="https://arxiv.org">arXiv</source>
+      <pubDate>Tue, 07 Jul 2026 14:16:06 +0000</pubDate>
     </item>
   </channel>
 </rss>

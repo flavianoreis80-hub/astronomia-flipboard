@@ -8,6 +8,7 @@ Executa 1x ao dia via agendador ou cron
 import os
 import feedparser
 import requests
+from deep_translator import GoogleTranslator
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -51,6 +52,9 @@ VAULT_OBSIDIAN = Path(os.environ.get(
 PASTA_NOTICIAS = VAULT_OBSIDIAN / "07 Notícias"
 
 # Homepage de cada fonte (atributo url exigido pelo elemento <source> do RSS 2.0)
+# Fontes cujo conteúdo vem em inglês e precisa ser traduzido (CCVAlg já é em português)
+FONTES_EM_INGLES = {"NASA APOD", "Space.com", "ESO", "arXiv", "NASA"}
+
 URLS_FONTES = {
     "NASA APOD": "https://apod.nasa.gov",
     "Space.com": "https://www.space.com",
@@ -224,6 +228,20 @@ class ColetorAstronomia:
                 return nome
         return "ASTRONOMIA"
 
+    def traduzir_artigos(self):
+        """Traduz título e descrição dos artigos de fontes em inglês para português"""
+        tradutor = GoogleTranslator(source="en", target="pt")
+        for artigo in self.artigos:
+            if artigo["fonte"] not in FONTES_EM_INGLES:
+                continue
+            try:
+                artigo["titulo"] = tradutor.translate(artigo["titulo"])
+                if artigo["descricao"]:
+                    artigo["descricao"] = tradutor.translate(artigo["descricao"])
+            except Exception as e:
+                print(f"✗ Erro ao traduzir artigo de {artigo['fonte']}: {e}")
+        print("✓ Tradução para português concluída")
+
     def gerar_rss(self, artigos=None, caminho=None, titulo="Astronomia Diária",
                   descricao="Notícias e descobertas de astronomia atualizadas diariamente"):
         """Gera um arquivo RSS com os artigos informados (padrão: todos, no feed principal)"""
@@ -361,6 +379,7 @@ class ColetorAstronomia:
             print("\n⚠️  Nenhum artigo coletado das APIs, usando demonstração...")
             self.adicionar_artigos_demo()
 
+        self.traduzir_artigos()
         self.gerar_rss()
         self.gerar_feeds_tematicos()
         self.gerar_nota_obsidian()
